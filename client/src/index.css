@@ -14,3 +14,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input[type="text"],
+input[type="password"],
+input[type="email"], input[type="number"] textarea {
+  @apply w-full border my-1 py-2 px-3 rounded-2xl
+}
+
+button.primary {
+  background-color: #F5385D;
+  @apply p-2 rounded-2xl w-full text-white
+}
